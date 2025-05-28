@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    </head>
+
+<body>
+<header>
+  <h1 class="styled-name">Asiri Harischandra</h1>
+  <a href="#" class="home-icon"><i class="fas fa-home"></i></a>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Project Details</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#recommendations">Recommendations</a></li>
+  </ul>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <img src="image/profile.jpg" alt="Profile Image" class="profile-img">
+  <h3>Asiri Harischandra</h3>
+  <p>I'm a passionate web developer with expertise in HTML, CSS, and JavaScript. I enjoy creating responsive, user-friendly websites and am eager to contribute to innovative projects.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skill"><img src="image/html.png" alt="HTML"> HTML</div>
+    <div class="skill"><img src="image/css.png" alt="CSS"> CSS</div>
+    <div class="skill"><img src="image/js.png" alt="JavaScript"> JavaScript</div>
+    <div class="skill"><img src="image/react.png" alt="React"> React</div>
+    <div class="skill"><img src="image/git.png" alt="Git"> Git</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Project Details</h2>
+  <div class="project">
+    <h3>E-Commerce Website</h3>
+    <p>Built a responsive online store with product filtering and cart functionality using React and Node.js.</p>
+  </div>
+  <div class="project">
+    <h3>Task Manager App</h3>
+    <p>Developed a task management tool with user authentication and real-time updates using Firebase.</p>
+  </div>
+  <div class="project">
+    <h3>Portfolio Website</h3>
+    <p>Created a personal portfolio to showcase skills, projects, and recommendations with dynamic features.</p>
+  </div>
+</section>
+
+<section id="recommendations">
+  <h2>Recommendations</h2>
+  <ul id="recommendation-list">
+    <li><strong>Eranga Wickramasingha</strong>: Exceptional developer with a keen eye for detail.</li>
+    <li><strong>Manoj ssenawirathna</strong>: Delivered a high-quality project ahead of schedule.</li>
+    <li><strong>Androo Fernando</strong>: Great problem-solver and team player.</li>
+  </ul>
+</section>
+<form id="recommendation-form">
+  <input type="text" id="rec-name" placeholder="Your Name" required>
+  <textarea id="rec-text" placeholder="Your Recommendation" required></textarea>
+  <button type="submit">Submit Recommendation</button>
+</form>
+
+<script src="script.js"></script>
+    </body>
+</html>

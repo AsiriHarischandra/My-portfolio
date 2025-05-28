@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+.styled-name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 28px;
+  color: #334256;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  background: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+nav a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #007bff;
+}
+
+#about {
+  padding: 20px;
+  text-align: center;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+#skills {
+  padding: 20px;
+  background: #e9ecef;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.skill img {
+  width: 30px;
+  height: 30px;
+}
+#projects {
+  padding: 20px;
+}
+.project {
+  margin: 10px 0;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#recommendations {
+  padding: 20px;
+  background: #f4f4f4;
+}
+#recommendation-list {
+  list-style: none;
+  padding: 0;
+}
+#recommendation-list li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#recommendation-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+#recommendation-form input,
+#recommendation-form textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+#recommendation-form button {
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#recommendation-form button:hover {
+  background: #0056b3;
+}
+.home-icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: #007bff;
+  text-decoration: none;
+}
+.home-icon:hover {
+  color: #1d2630;
+}
